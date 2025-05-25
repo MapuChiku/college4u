@@ -4,7 +4,7 @@ from sklearn.linear_model import LinearRegression
 
 st.title("Salary Prediction Based on Experience and Age")
 
-data = pd.read_csv("salary_data.csv")
+data = pd.read_csv("data.csv")
 st.write(data)
 
 x = data[['Experience_in_Years', 'Age']]
